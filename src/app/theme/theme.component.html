@@ -5,19 +5,17 @@
   </header>
 
   <nav>
-    <a routerLink="/home">Início</a> &nbsp;
-    <a routerLink="/contacts">Contatos</a> &nbsp;
+    <a routerLink="/home">Início</a>
+    <a routerLink="/contacts">Contatos</a>
     <a routerLink="/about">Sobre</a>
   </nav>
 
-  <router-outlet></router-outlet>
+  <div id="content">
+    <router-outlet></router-outlet>
+  </div>
 
   <footer>
-    &copy; 2023 Eu Mesmo!
+    <div>&copy; 2023 Eu Mesmo!</div>
   </footer>
 
 </div>
-
-
-
-
